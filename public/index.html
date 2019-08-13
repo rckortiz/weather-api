@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>weather-api</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <section class="container">
+      <h1 class="weather">Check the weather in your area!</h1>
+      <section class="input-section">
+        <input class="location-field" type="text" />
+        <button class="search-button">Search</button>
+      </section>
+      <section class="results">
+        <p class="forecast"></p>
+        <p class="temp"></p>
+      </section>
+    </section>
+
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
